@@ -20,7 +20,7 @@
                 </div>
                 <div class="name">
                   <h3 class="title">
-                    Carla Hortensia
+                    Front-End
                   </h3>
                   <h6>Designer</h6>
                   <md-button
@@ -318,7 +318,7 @@ export default {
     Badge
   },
   mixins: [Mixins.HeaderImage],
-  bodyClass: "profile-page",
+  bodyClass: "FullStack",
   data() {
     return {
       image: require("@/assets/img/city-profile.jpg"),

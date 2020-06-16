@@ -20,18 +20,23 @@ import Ecommerce from "./views/examples/Ecommerce.vue";
 import Product from "./views/examples/Product.vue";
 import Signup from "./views/examples/Signup.vue";
 import Error from "./views/examples/Error.vue";
-
+// import frontend from "./views/sections/frontend.vue";
 import MainNavbar from "./layout/MainNavbar.vue";
 import MainFooter from "./layout/MainFooter.vue";
+
+
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
+
     {
       path: "/",
       name: "index",
-      components: { default: Index, header: MainNavbar, footer: MainFooter },
+      components: { default: Index, 
+        header: MainNavbar,
+        footer: MainFooter },
       props: {
         header: { colorOnScroll: 400, navbarTransparent: true }
       }
@@ -121,6 +126,20 @@ export default new Router({
         header: { colorOnScroll: 400, navbarTransparent: true }
       }
     },
+    // {
+    //   path: "/frontend",
+    //   name: "frontend",
+    //   components: {
+    //     default: front,
+    //     header: MainNavbar,
+    //     footer: MainFooter
+    //   },
+    //   props: {
+    //     header: { colorOnScroll: 400, navbarTransparent: true }
+    //   }
+    // },
+
+
     {
       path: "/ecommerce-page",
       name: "ecommerce-page",

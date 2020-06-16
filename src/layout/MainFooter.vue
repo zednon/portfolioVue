@@ -7,7 +7,7 @@
     }"
     :data-background-color="backgroundColor"
   >
-    <template
+    <!-- <template
       v-if="$route.name !== 'ecommerce-page' && $route.name !== 'presentation'"
     >
       <div class="container">
@@ -228,7 +228,7 @@
           </li>
         </ul>
       </div>
-    </template>
+    </template> -->
   </footer>
 </template>
 <script>
@@ -240,17 +240,17 @@ export default {
   },
   data() {
     return {
-      year: new Date().getFullYear(),
-      img1: require("@/assets/img/faces/card-profile6-square.jpg"),
-      img2: require("@/assets/img/faces/christian.jpg"),
-      img3: require("@/assets/img/faces/card-profile4-square.jpg"),
-      img4: require("@/assets/img/faces/card-profile1-square.jpg"),
-      img5: require("@/assets/img/faces/marc.jpg"),
-      img6: require("@/assets/img/faces/kendall.jpg"),
-      img7: require("@/assets/img/faces/card-profile5-square.jpg"),
-      img8: require("@/assets/img/faces/card-profile2-square.jpg")
+    //   year: new Date().getFullYear(),
+    //   img1: require("@/assets/img/faces/card-profile6-square.jpg"),
+    //   img2: require("@/assets/img/faces/christian.jpg"),
+    //   img3: require("@/assets/img/faces/card-profile4-square.jpg"),
+    //   img4: require("@/assets/img/faces/card-profile1-square.jpg"),
+    //   img5: require("@/assets/img/faces/marc.jpg"),
+    //   img6: require("@/assets/img/faces/kendall.jpg"),
+    //   img7: require("@/assets/img/faces/card-profile5-square.jpg"),
+    //   img8: require("@/assets/img/faces/card-profile2-square.jpg")
     };
   }
-};
+}
 </script>
 <style></style>

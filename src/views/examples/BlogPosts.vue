@@ -27,12 +27,18 @@
               <tabs
                 pills-align="center"
                 :tab-active="1"
-                :tab-name="['All', 'Front-End', 'UX/UI', 'Moble', 'ADA-UX']"
+                :tab-name="['All', 'Front-End', 'UX/UI', 'Moble']"
                 plain
                 color-button="success"
               >
                 <!-- here you can add your content for tab-content -->
-                <template slot="tab-pane-1" />
+                <template slot="tab-pane-1">
+
+
+
+
+
+                </template>
                 <template slot="tab-pane-2" />
                 <template slot="tab-pane-3" />
                 <template slot="tab-pane-4" />

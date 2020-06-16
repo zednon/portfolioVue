@@ -103,7 +103,9 @@
           >
               <rotating-card card-bg="info">
               <template slot="frontRotateCardContent">
-               <br>
+              
+               <h6 
+               class="card-description">2019-2020</h6>
                 <h5 class="card-category card-category-social">
                 Harlem Edution Center
                 </h5>
@@ -152,7 +154,9 @@
           >
               <rotating-card card-bg="rose">
               <template slot="frontRotateCardContent">
-               <br>
+               
+               <h6 
+               class="card-description">2019</h6>
                 <h5 class="card-category card-category-social">
                 TeamTreeHouse
                 </h5>
@@ -205,7 +209,8 @@
           >
               <rotating-card card-bg="info">
               <template slot="frontRotateCardContent">
-               <br>
+                 <h6 
+               class="card-description">2018-2019</h6>
                 <h5 class="card-category card-category-social">
 TGTSNBN                </h5>
 
@@ -252,7 +257,8 @@ TGTSNBN                </h5>
           >
               <rotating-card card-bg="rose">
               <template slot="frontRotateCardContent">
-               <br>
+                   <h6 
+               class="card-description">2019-2020</h6>
                 <h5 class="card-category card-category-social">
                 Freelance
                 </h5>
@@ -301,7 +307,8 @@ TGTSNBN                </h5>
           >
               <rotating-card card-bg="rose">
               <template slot="frontRotateCardContent">
-               <br>
+                   <h6 
+               class="card-description">2018-2019</h6>
                 <h5 class="card-category card-category-social">
                 Columbia University
                 </h5>
@@ -353,7 +360,8 @@ TGTSNBN                </h5>
           >
               <rotating-card card-bg="info">
               <template slot="frontRotateCardContent">
-               <br>
+                   <h6 
+               class="card-description">2018</h6>
                 <h5 class="card-category card-category-social">
 FreeCoderCamp               </h5>
 
@@ -396,6 +404,7 @@ FreeCoderCamp               </h5>
               </template>
             </rotating-card>
           </div>   
+         
            </div>
 
 
@@ -409,13 +418,10 @@ FreeCoderCamp               </h5>
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
               <h2 class="text-center title">
-                Work with us
+               Contact Me 
               </h2>
               <h4 class="text-center description">
-                Divide details about your product or agency work into parts.
-                Write a few lines about each one and contact us about any
-                further collaboration. We will responde get back to you in a
-                couple of hours.
+            Feel free to reach out please
               </h4>
               <form class="contact-form">
                 <div class="md-layout">

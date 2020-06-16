@@ -49,13 +49,13 @@
                         data-toggle="dropdown"
                       >
                         <i class="material-icons">apps</i>
-                        <p>Components</p>
+                        <p>Projects</p>
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
                           <a href="#/presentation">
-                            <i class="material-icons">layers</i>
-                            Presentation
+                            <i class="material-icons">developer_board</i>
+                            Front-End
                           </a>
                         </li>
                         <li>
@@ -244,7 +244,7 @@ export default {
         "https://demos.creative-tim.com/vue-material-kit-pro/documentation/",
       extraNavClasses: "",
       toggledClass: false,
-      brand: "Vue Material Kit PRO",
+      brand: "Anna Gondring's Porfolio",
       linksSections: [
         { name: "headers", icon: "dns" },
         { name: "features", icon: "build" },
