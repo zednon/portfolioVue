@@ -4,7 +4,6 @@ import Router from "vue-router";
 //  Main Pages
 import Index from "./views/Index.vue";
 import Sections from "./views/Sections.vue";
-import Presentation from "./views/Presentation.vue";
 
 //  Main Examples
 import Landing from "./views/examples/Landing.vue";
